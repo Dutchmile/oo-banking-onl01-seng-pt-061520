@@ -2,7 +2,7 @@ class BankAccount
 
   attr_accessor :name
 
-  def initiliaze(name)
+  def initiliaze
     @name = name
   end
 
