@@ -18,5 +18,6 @@ class Transfer
     if self.valid?
     self.receiver.balance += amount
     self.sender.blance -= amount
+    end
   end
 end
