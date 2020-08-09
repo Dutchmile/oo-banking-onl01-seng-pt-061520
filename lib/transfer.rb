@@ -17,7 +17,7 @@ class Transfer
 
   def execute_transaction
     if self.sender.balance < amount
-      "Transaction rejected. Please check your account balance."  
+      "Transaction rejected. Please check your account balance."
     elsif self.valid?
       self.receiver.balance += amount
       self.sender.balance -= amount
